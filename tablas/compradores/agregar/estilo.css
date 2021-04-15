@@ -1,0 +1,61 @@
+
+.form{
+	float:center;
+	width:35%;
+	height:100%;
+	padding-top: 15px;
+	
+	
+	margin:auto;
+
+}
+
+input[type=text],[type=int]{
+	width:99%;
+	height:35px;
+	display: inline-block;
+	float:right;
+}
+
+
+#contenido {
+	background:white;
+}
+input[type=submit]{
+	position:center;
+	width:100%;
+	height:40px;
+	color:white;
+	border:0px;
+	background-color:black;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+	display: inline-block;
+}
+
+
+
+label{
+
+	display: inline-block;
+	margin:11px 20px 0 0;
+	font-size:16 px;
+	color:black;
+	
+	
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+#pie {
+	height:80px;
+	text-align: center;
+	color:black;
+}
+#pie h3{
+	padding-top: 30px;
+	color:#2c881d;
+}
+footer{
+	background: black;
+}

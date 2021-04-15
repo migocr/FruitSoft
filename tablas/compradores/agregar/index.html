@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Lista de compradores</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="keywords" content="menu, navigation, animation, transition, transform, rotate, css3, web design, component, icon, slide" />
+		<link rel="stylesheet" type="text/css" href="../../../login/css/demo.css" />
+
+		<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
+		<title>Agregar Comprador</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		
+	</head>
+	
+	<body>
+
+			
+			<br><p><a href="../../../login/admin.php"><img src="../../../img/logo-admin.png" alt="logo" id="logo"></a></p><br>
+			
+			
+
+			<div class="container">
+            <div class="header">
+                <a href="../"><strong>&lt;&lt;Volver </strong></a>
+                <span class="right">
+                	
+					<a href="../../../login/salir.php">Salir</a>
+                    
+                </span>
+                <div class="clr"></div>
+            </div>
+            <h1>Agregar Comprador <span>Software de administracion de datos </span></h1>
+            <div class="content" id="contenido">
+                
+                <div class="form">
+			
+			<form action="guardar.php" method="POST">
+
+				
+				<label for="comprador_id">ID:</label><input type="int" name="comprador_id"  required>
+				<br>
+				<br>
+				
+				<label for="nombre">Nombre completo:</label><input type="text" name="nombre">
+
+				<br>
+				<br>
+				<label for="email">E-mail: </label><input type="text" name="email" >
+				<br>
+				<br>
+				
+
+
+				<label for="direccion">Direccion: </label><input type="text" name="direccion" >
+				<br>
+				<br>
+
+				<label for="telefono">Telefono</label><input type="int" name="telefono" >
+
+				<br>
+
+				
+				<br>
+				
+				<br>
+				<br>
+				<input type="submit" value="Enviar">
+				<br><br>
+				
+			</form>
+		</div>
+        </div>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+		</body>
+		<footer>
+  <div id="pie">
+    <h3>&#169; FruitSoft 2018 | Diseñado y desarrollado por Misael Gomez y Diego Hernandez</h3>
+  </div>
+</footer>
+</html>
